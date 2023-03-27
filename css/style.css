@@ -1,15 +1,14 @@
 html{
     text-align: center;
+    background-color: gainsboro;
+    font-size: 15px;
 }
     h1{
-        border: 4px black solid;
         font-size: 25px;
     }
     figure{
         border: 4px green solid;
-        font-size: 15px;
     }
     section{
         border: 4px blue solid;
-        font-size: 15px;
     }
