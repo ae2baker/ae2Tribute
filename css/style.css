@@ -1,14 +1,32 @@
 html{
+    border: 4px red solid;
     text-align: center;
     background-color: gainsboro;
     font-size: 15px;
+    list-style-position: inside;
 }
-    h1{
-        font-size: 25px;
-    }
-    figure{
-        border: 4px green solid;
-    }
-    section{
-        border: 4px blue solid;        
-    }
+header{
+    background-color: azure;
+    position: relative;
+}
+h1{
+    font-size: 25px;
+}
+figure{
+    border: 4px green solid;
+    position: static;
+    top: 15px;
+    left: 15px;
+}
+section{
+    border: 4px blue solid;
+    text-align: left;
+    position: relative;
+    top: 15px;
+}
+footer{
+    border: 3px solid red;
+    margin-top: 25px;
+    justify-content: center;
+    position: relative;
+}
